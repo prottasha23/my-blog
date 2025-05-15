@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.navbar{
+    height: 85px;
+    width: auto;
+    background-color: rgb(220, 244, 245);
+    color: black;
+}
+.logo-name{
+    font-size: 10px;
+     display: flex;
+     margin-top: -55px;
+     margin-left: 60px;
+}
+.nav-links{
+    margin-left: 1020px;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+/* blog */
+.blog{
+    height: 360px;
+    width: 1000px;
+    border: 2px solid red;
+    margin-left: 230px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.blog .contant{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    padding: 60px;
+    
+}
+/* ptoject */
+.project-section{
+    margin-left: 1400px;
+}
+.project{
+    height: 360px;
+    width: 1000px;
+    border: 2px solid red;
+    margin-left: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.project .contant{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    padding: 60px;
+   
+}
+/* footer */
+.footer{
+    height: 450px;
+    width: auto;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
